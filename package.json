@@ -1,0 +1,34 @@
+{
+  "name": "hubot-slack-attachment-optimised",
+  "description": "Re-enable `slack-attachment` event for hubot-slack",
+  "version": "1.0.1",
+  "author": "Rohit Mathew",
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "slack"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rohitjmathew/hubot-slack-attachment-optimised.git"
+  },
+  "bug": {
+    "url": "https://github.com/rohitjmathew/hubot-slack-attachment-optimised/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+  "main": "index.coffee",
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/inkel/hubot-slack-attachment/issues"
+  },
+  "homepage": "https://github.com/rohitjmathew/hubot-slack-attachment-optimised",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

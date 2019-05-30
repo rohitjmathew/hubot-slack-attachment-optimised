@@ -1,7 +1,7 @@
 {
   "name": "hubot-slack-attachment-optimised",
   "description": "Re-enable `slack-attachment` event for hubot-slack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Rohit Mathew",
   "license": "MIT",
   "keywords": [

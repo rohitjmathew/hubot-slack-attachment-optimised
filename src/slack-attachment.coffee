@@ -28,9 +28,10 @@ module.exports = (robot) ->
     payload = data.content
 
     payload.channel  = data.channel || getChannel data.message
-    payload.username = getUsername data
 
     reqbody = JSON.stringify(payload)
+
+    robot.logger.info "Payload:", reqbody
 
     robot.http(options.webhook)
       .header("Content-Type", "application/json")

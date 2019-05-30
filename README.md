@@ -6,10 +6,10 @@ This module attempts to reintroduce the event using [Incoming Webhooks][incoming
 To use again `slack-attachment` events, just run the following in your hubot repository:
 
 ```
-npm install hubot-slack-attachment --save
+npm install hubot-slack-attachment-optimised --save
 ```
 
-And then add `hubot-slack-attachment` to `external-scripts.json`.
+And then add `hubot-slack-attachment-optimised` to `external-scripts.json`.
 
 Last but not least, you need to add the environment variable `HUBOT_SLACK_INCOMING_WEBHOOK` to the URL for the new [incoming webhook][incoming] you've just defined.
 

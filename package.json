@@ -25,7 +25,7 @@
     "node": "*"
   },
   "bugs": {
-    "url": "https://github.com/inkel/hubot-slack-attachment/issues"
+    "url": "https://github.com/rohitjmathew/hubot-slack-attachment/issues"
   },
   "homepage": "https://github.com/rohitjmathew/hubot-slack-attachment-optimised",
   "scripts": {

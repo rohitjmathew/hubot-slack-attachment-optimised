@@ -1,5 +1,5 @@
 # Re-enable `slack-attachment` in [hubot-slack][hubot-slack]
-When Slack introduced version 3 of their [hubot-slack][hubot-slack] adapter the old `slack-attachment` was removed due to [constraints in the RTM API](https://github.com/slackhq/hubot-slack/issues/108).
+When Slack introduced version 3 of their [hubot-slack][hubot-slack] adapter the old `slack-attachment` was removed due to [constraints in the RTM API](https://github.com/slackhq/hubot-slack/issues/108). This is a personalised implementation of [hubot-slack-attachment](https://github.com/inkel/hubot-slack-attachment).
 
 This module attempts to reintroduce the event using [Incoming Webhooks][incoming] to somehow replicate the lost feature.
 
